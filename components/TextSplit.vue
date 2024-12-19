@@ -1,6 +1,6 @@
 <template>
     <div class="text-split__section">
-        <img :src="imagePath" alt="">
+        <img :src="imagePath" alt=""/>
         <div class="text-split__heading-container-mob">
             <Title :title="componentData.title"/>
         </div>
@@ -19,7 +19,7 @@
     componentData: { type: Object, required: true }
   });
 
-  const imagePath = new URL(`../assets/images/${props.componentData.image}`, import.meta.url).href;;
+  const imagePath = `${props.componentData.image}`;
 
   </script>
   
