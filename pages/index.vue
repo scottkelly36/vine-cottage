@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="page-layout">
     <text-split :componentData="data.textSplit1" />
     <parallax />
     <text-split :componentData="data.textSplit2" />
@@ -15,4 +15,10 @@ import Footer from '~/components/Footer.vue';
 const data = pageData;
 </script>
 
-<style></style>
+<style>
+.page-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+</style>
