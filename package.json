@@ -13,6 +13,7 @@
     "@splidejs/vue-splide": "^0.6.12",
     "nuxt": "^3.14.1592",
     "vue": "latest",
-    "vue-router": "latest"
+    "vue-router": "latest",
+    "vue3-rich-accordion": "^0.0.7"
   }
 }
