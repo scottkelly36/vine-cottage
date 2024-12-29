@@ -1,5 +1,6 @@
 <template>
   <div class="page-layout">
+    <Hero :componentData="data.hero"/>
     <text-split :componentData="data.textSplit1" />
     <parallax />
     <text-split :componentData="data.textSplit2" />
