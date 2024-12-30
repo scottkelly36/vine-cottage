@@ -4,6 +4,7 @@
     <text-split :componentData="data.textSplit1" />
     <parallax />
     <text-split :componentData="data.textSplit2" />
+    <Carousel :componentData="data.carousel"/>
     <text-split :componentData="data.textSplit3" />
     <Footer :componentData="data.footer" />
   </div>
