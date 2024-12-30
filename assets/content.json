@@ -24,6 +24,27 @@
         "content" : "<p>Vine Cottage is a newly renovated holiday home in the heart of Hexham, a charming market town in Northumberland’s Tyne Valley.   This delightful cottage is a haven for single travellers or a couple wanting a central base when visiting the area.</p> <p>This charming cottage is tastefully decorated with beautiful oak flooring throughout the living room and bedroom and complemented by stylish soft furnishings and furniture.  The bedroom has a double bed with ample wardrobe space which leads into a luxurious en-suite with marble tiles.   The kitchen is fully equipped with new appliances and leads to a separate utility containing a washer/dryer.</p><p>The property is accessed via some stone steps leading to the front door so is unsuitable for those with mobility issues. The cottage and its outdoor space is fully available for guests use only.</p>",
         "showCta": true
     },
+    "carousel":{
+        "images": [
+            "images/slider/slider1.jpeg",
+            "images/slider/slider2.jpeg",
+            "images/slider/slider3.jpeg",
+            "images/slider/slider4.jpeg",
+            "images/slider/slider5.jpeg",
+            "images/slider/slider7.jpeg",
+            "images/slider/slider8.jpeg",
+            "images/slider/slider9.jpeg",
+            "images/slider/slider10.jpeg",
+            "images/slider/slider11.jpeg",
+            "images/slider/slider12.jpeg",
+            "images/slider/slider13.jpeg",
+            "images/slider/slider15.jpeg",
+            "images/slider/slider16.jpeg",
+            "images/slider/slider17.jpeg",
+            "images/slider/slider19.jpeg",
+            "images/slider/slider20.jpeg"
+        ]
+    },
     "textSplit3":{
         "title": "PERFECT FOR SINGLE TRAVELERS", 
         "content" : "<p>This lovely, freshly renovated cottage is a haven for single travellers or a couple who want to be in the heart of Hexham. Oak flooring throughout the living room and bedroom is complemented by tasteful soft furnishings and furniture. The bedroom with double bed has plenty of wardrobe space and leads into an ensuite with luxurious marble tiles. The kitchen is fully equipped with new appliances and leads to a separate utility containing a washer/dryer.</p>",
