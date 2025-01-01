@@ -29,6 +29,7 @@ footer {
   justify-content: center;
   align-items: center;
   padding: 50px 0;
+  margin-top: 100px;
 }
 .footer__logo-container {
   display: flex;
