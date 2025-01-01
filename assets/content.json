@@ -127,7 +127,11 @@
     ]
   },
   "testimonials": [],
-  "exploreNorthumberland": {},
+  "exploreNorthumberland": {
+    "title": "Explore the North",
+    "content": "<p>Located in the heart of the charming market town of Hexham, Vine Cottage offers guests plenty of opportunities to explore local life.  Hexham is renowned for it’s history, including the magnificent Hexham Abbey and Old Goal, stroll along cobbled back streets and enjoy the independent shops and restaurants.  There are 5 supermarkets, 1 large leisure centre with swimming pool and fitness centre.  Hexham also has an independent cinema as well as the Queens Hall which has a variety of events throughout the year.</p><p>For those wanting to venture further, all of Northumberland awaits your exploration. With its stunning landscapes, historical castles, tranquil beaches, and picturesque market towns, this region is among the UK’s most enchanting destinations. Coupled with the rugged rural scenery, Northumberland sets the stage for a truly memorable holiday.</p>",
+    "showCta": false
+  },
   "footer": {
     "address": "<p>Vine Cottage,</p><p> Eastgate,</p><p>Hexham,</p><p>NE46 1BH</p>",
     "emailAddress": "Hello@vine-cottage.co.uk",

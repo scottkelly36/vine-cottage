@@ -8,6 +8,7 @@
     <text-split :componentData="data.textSplit3" />
     <Accordion :componentData="data.Accordion" />
     <Warning :componentData="data.warnings" />
+    <text-split :component-data="data.exploreNorthumberland" />
     <Footer :componentData="data.footer" />
   </div>
 </template>
