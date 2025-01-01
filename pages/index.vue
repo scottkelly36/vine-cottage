@@ -7,6 +7,7 @@
     <Carousel :componentData="data.carousel" />
     <text-split :componentData="data.textSplit3" />
     <Accordion :componentData="data.Accordion" />
+    <Warning :componentData="data.warnings" />
     <Footer :componentData="data.footer" />
   </div>
 </template>
