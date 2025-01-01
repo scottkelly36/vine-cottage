@@ -17,7 +17,7 @@ console.log(props);
 
 <style>
 .title__container {
-  background-image: url('../assets/logos/icon.png');
+  background-image: url("../assets/logos/icon.png");
   height: 160px;
   background-position: center;
   background-repeat: no-repeat;
@@ -31,5 +31,6 @@ console.log(props);
   font-size: 20px;
   text-transform: capitalize;
   text-align: center;
+  font-weight: 500;
 }
 </style>
