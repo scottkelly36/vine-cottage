@@ -47,8 +47,6 @@ import { AccordionList, AccordionItem } from "vue3-rich-accordion";
 const props = defineProps({
   componentData: { type: Object, required: true },
 });
-
-console.log(props);
 </script>
 
 <style>

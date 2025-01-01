@@ -18,11 +18,11 @@ export default {
   },
   mounted() {
     // Dynamically load the external script
-    const script = document.createElement('script');
-    script.src = 'https://widget.freetobook.com/widget.js?v=20190925';
+    const script = document.createElement("script");
+    script.src = "https://widget.freetobook.com/widget.js?v=20190925";
     script.async = true;
     script.onload = () => {
-      console.log('FreeToBook widget loaded');
+      console.log("FreeToBook widget loaded");
     };
     document.body.appendChild(script);
   },
