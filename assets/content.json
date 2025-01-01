@@ -117,12 +117,15 @@
       }
     ]
   },
-  "warnings": [
-    { "icon": "Steps", "text": "Steps to the property" },
-    { "icon": "Smoking", "text": "No Smoking" },
-    { "icon": "Pets", "text": "No Pets" },
-    { "icon": "Party", "text": "No Parties" }
-  ],
+  "warnings": {
+    "title": "Please be aware before booking",
+    "warnings": [
+      { "icon": "Steps", "text": "Steps to the property" },
+      { "icon": "Smoking", "text": "No Smoking" },
+      { "icon": "Pets", "text": "No Pets" },
+      { "icon": "Party", "text": "No Parties" }
+    ]
+  },
   "testimonials": [],
   "exploreNorthumberland": {},
   "footer": {
