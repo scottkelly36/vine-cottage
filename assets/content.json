@@ -123,7 +123,7 @@
       { "icon": "Steps", "text": "Steps to the property" },
       { "icon": "Smoking", "text": "No Smoking" },
       { "icon": "Pets", "text": "No Pets" },
-      { "icon": "Party", "text": "No Parties" }
+      { "icon": "Parties", "text": "No Parties" }
     ]
   },
   "testimonials": [],
