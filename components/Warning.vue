@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <h3 class="warnings-title"></h3>
+  <div class="warning-wrapper">
+    <h3 class="warnings-title">{{ componentData.title }}</h3>
     <div class="warnings-container"></div>
   </div>
 </template>
@@ -11,4 +11,15 @@ const props = defineProps({
 });
 </script>
 
-<style></style>
+<style>
+.warning-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.warnings-title {
+  font-size: 20px;
+  font-weight: 500;
+}
+</style>
