@@ -1,60 +1,126 @@
 {
-    "hero": {
-        "heading": "Vine Cottage",
-        "subHeading": "Bright and airy and right in the centre of town",
-        "copy": "A newly renovated holiday home in the attractive market town of  Hexham, minutes from the town centre.  A perfect retreat for couples.",
-        "showCta": true,
-        "images": [
-            "images/Hero-carousel/hero1.jpeg",
-            "images/Hero-carousel/hero2.jpeg",
-            "images/Hero-carousel/hero3.jpeg",
-            "images/Hero-carousel/hero4.jpeg",
-            "images/Hero-carousel/hero5.jpeg",
-            "images/Hero-carousel/hero6.jpeg"
+  "hero": {
+    "heading": "Vine Cottage",
+    "subHeading": "Bright and airy and right in the centre of town",
+    "copy": "A newly renovated holiday home in the attractive market town of  Hexham, minutes from the town centre.  A perfect retreat for couples.",
+    "showCta": true,
+    "images": [
+      "images/Hero-carousel/hero1.jpeg",
+      "images/Hero-carousel/hero2.jpeg",
+      "images/Hero-carousel/hero3.jpeg",
+      "images/Hero-carousel/hero4.jpeg",
+      "images/Hero-carousel/hero5.jpeg",
+      "images/Hero-carousel/hero6.jpeg"
+    ]
+  },
+  "textSplit1": {
+    "title": "THE HEART OF HEXHAM",
+    "content": "<p>Vine Cottage is a newly renovated holiday home in the heart of Hexham, a charming market town in Northumberland’s Tyne Valley.   This delightful cottage is a haven for single travellers or a couple wanting a central base when visiting the area.</p> <p>This charming cottage is tastefully decorated with beautiful oak flooring throughout the living room and bedroom and complemented by stylish soft furnishings and furniture.  The bedroom has a double bed with ample wardrobe space which leads into a luxurious en-suite with marble tiles.   The kitchen is fully equipped with new appliances and leads to a separate utility containing a washer/dryer.</p><p>The property is accessed via some stone steps leading to the front door so is unsuitable for those with mobility issues. The cottage and its outdoor space is fully available for guests use only.</p>",
+    "image": "images/landing-image.jpg",
+    "showCta": false
+  },
+  "textSplit2": {
+    "title": "THE HEART OF HEXHAM",
+    "content": "<p>Vine Cottage is a newly renovated holiday home in the heart of Hexham, a charming market town in Northumberland’s Tyne Valley.   This delightful cottage is a haven for single travellers or a couple wanting a central base when visiting the area.</p> <p>This charming cottage is tastefully decorated with beautiful oak flooring throughout the living room and bedroom and complemented by stylish soft furnishings and furniture.  The bedroom has a double bed with ample wardrobe space which leads into a luxurious en-suite with marble tiles.   The kitchen is fully equipped with new appliances and leads to a separate utility containing a washer/dryer.</p><p>The property is accessed via some stone steps leading to the front door so is unsuitable for those with mobility issues. The cottage and its outdoor space is fully available for guests use only.</p>",
+    "showCta": true
+  },
+  "carousel": {
+    "images": [
+      "images/slider/slider1.jpeg",
+      "images/slider/slider2.jpeg",
+      "images/slider/slider3.jpeg",
+      "images/slider/slider4.jpeg",
+      "images/slider/slider5.jpeg",
+      "images/slider/slider7.jpeg",
+      "images/slider/slider8.jpeg",
+      "images/slider/slider9.jpeg",
+      "images/slider/slider10.jpeg",
+      "images/slider/slider11.jpeg",
+      "images/slider/slider12.jpeg",
+      "images/slider/slider13.jpeg",
+      "images/slider/slider15.jpeg",
+      "images/slider/slider16.jpeg",
+      "images/slider/slider17.jpeg",
+      "images/slider/slider19.jpeg",
+      "images/slider/slider20.jpeg"
+    ]
+  },
+  "textSplit3": {
+    "title": "PERFECT FOR SINGLE TRAVELERS",
+    "content": "<p>This lovely, freshly renovated cottage is a haven for single travellers or a couple who want to be in the heart of Hexham. Oak flooring throughout the living room and bedroom is complemented by tasteful soft furnishings and furniture. The bedroom with double bed has plenty of wardrobe space and leads into an ensuite with luxurious marble tiles. The kitchen is fully equipped with new appliances and leads to a separate utility containing a washer/dryer.</p>",
+    "showCta": true
+  },
+  "Accordion": {
+    "items": [
+      {
+        "title": "General",
+        "bullets": [
+          "Check in from 3pm",
+          "Check out before 10.00am",
+          "Self check in with lock box",
+          "Private Entrance (steps to the cottage entrance)",
+          "No Dogs",
+          "No Smoking"
         ]
-    },
-    "textSplit1":{
-        "title": "THE HEART OF HEXHAM", 
-        "content" : "<p>Vine Cottage is a newly renovated holiday home in the heart of Hexham, a charming market town in Northumberland’s Tyne Valley.   This delightful cottage is a haven for single travellers or a couple wanting a central base when visiting the area.</p> <p>This charming cottage is tastefully decorated with beautiful oak flooring throughout the living room and bedroom and complemented by stylish soft furnishings and furniture.  The bedroom has a double bed with ample wardrobe space which leads into a luxurious en-suite with marble tiles.   The kitchen is fully equipped with new appliances and leads to a separate utility containing a washer/dryer.</p><p>The property is accessed via some stone steps leading to the front door so is unsuitable for those with mobility issues. The cottage and its outdoor space is fully available for guests use only.</p>",
-        "image": "images/landing-image.jpg",
-        "showCta": false
-    },
-    "textSplit2":{
-        "title": "THE HEART OF HEXHAM", 
-        "content" : "<p>Vine Cottage is a newly renovated holiday home in the heart of Hexham, a charming market town in Northumberland’s Tyne Valley.   This delightful cottage is a haven for single travellers or a couple wanting a central base when visiting the area.</p> <p>This charming cottage is tastefully decorated with beautiful oak flooring throughout the living room and bedroom and complemented by stylish soft furnishings and furniture.  The bedroom has a double bed with ample wardrobe space which leads into a luxurious en-suite with marble tiles.   The kitchen is fully equipped with new appliances and leads to a separate utility containing a washer/dryer.</p><p>The property is accessed via some stone steps leading to the front door so is unsuitable for those with mobility issues. The cottage and its outdoor space is fully available for guests use only.</p>",
-        "showCta": true
-    },
-    "carousel":{
-        "images": [
-            "images/slider/slider1.jpeg",
-            "images/slider/slider2.jpeg",
-            "images/slider/slider3.jpeg",
-            "images/slider/slider4.jpeg",
-            "images/slider/slider5.jpeg",
-            "images/slider/slider7.jpeg",
-            "images/slider/slider8.jpeg",
-            "images/slider/slider9.jpeg",
-            "images/slider/slider10.jpeg",
-            "images/slider/slider11.jpeg",
-            "images/slider/slider12.jpeg",
-            "images/slider/slider13.jpeg",
-            "images/slider/slider15.jpeg",
-            "images/slider/slider16.jpeg",
-            "images/slider/slider17.jpeg",
-            "images/slider/slider19.jpeg",
-            "images/slider/slider20.jpeg"
+      },
+      {
+        "title": "Living Spaces",
+        "bullets": [
+          "Electric Fire",
+          "Central Heating",
+          "Games and books",
+          "Dedicated work space"
         ]
-    },
-    "textSplit3":{
-        "title": "PERFECT FOR SINGLE TRAVELERS", 
-        "content" : "<p>This lovely, freshly renovated cottage is a haven for single travellers or a couple who want to be in the heart of Hexham. Oak flooring throughout the living room and bedroom is complemented by tasteful soft furnishings and furniture. The bedroom with double bed has plenty of wardrobe space and leads into an ensuite with luxurious marble tiles. The kitchen is fully equipped with new appliances and leads to a separate utility containing a washer/dryer.</p>",
-        "showCta": true
-    },
-    "footer":{
-        "address": "<p>Vine Cottage,</p><p> Eastgate,</p><p>Hexham,</p><p>NE46 1BH</p>",
-        "emailAddress": "Hello@vine-cottage.co.uk",
-        "facebook": "",
-        "twitter": "",
-        "insta": ""
-    }
+      },
+      {
+        "title": "Kitchen/Utility",
+        "bullets": [
+          "Coffee cafetiere",
+          "Cooker",
+          "Dishwasher",
+          "Fridge/Freezer",
+          "Toaster",
+          "Microwave",
+          "Washing Machine",
+          "tumble dryer",
+          "Drying rack",
+          "Iron/ironing Board"
+        ]
+      },
+      {
+        "title": "Bed/Bath",
+        "bullets": [
+          "Shower",
+          "Hairdryer",
+          "Shampoo",
+          "Conditioner",
+          "Shower gel",
+          "Towels (bath)",
+          "Travel Cot on request",
+          "Bed linen provided",
+          "Room darkening shades",
+          "Double bed"
+        ]
+      },
+      {
+        "title": "Tech",
+        "bullets": [
+          "HDTV with Amazon Prme Video, Netflix ans standard cable/satellite",
+          "Wifi",
+          "Dedicated work space"
+        ]
+      },
+      {
+        "title": "Outside",
+        "bullets": ["Private Garden/Outdoor Space", "Outdoor furniture"]
+      }
+    ]
+  },
+  "footer": {
+    "address": "<p>Vine Cottage,</p><p> Eastgate,</p><p>Hexham,</p><p>NE46 1BH</p>",
+    "emailAddress": "Hello@vine-cottage.co.uk",
+    "facebook": "",
+    "twitter": "",
+    "insta": ""
+  }
 }
