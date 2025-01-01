@@ -111,7 +111,7 @@ console.log(props);
   rotate: 180deg;
 }
 .accordion-item__list-container {
-  margin: 10px 20px;
+  margin: 10px 20px 20px 20px;
   list-style-type: disc;
 }
 </style>
