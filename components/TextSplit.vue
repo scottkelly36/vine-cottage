@@ -16,8 +16,8 @@
 </template>
 
 <script setup>
-import Title from '~/components/Title.vue';
-import Cta from './Cta.vue';
+import Title from "~/components/Title.vue";
+import Cta from "./Cta.vue";
 
 const props = defineProps({
   componentData: { type: Object, required: true },
@@ -29,7 +29,8 @@ const imagePath = `${props.componentData.image}`;
 <style>
 .text-split__copy {
   text-align: center;
-  font-size: 12px;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .text-split__copy p {

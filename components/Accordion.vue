@@ -74,7 +74,7 @@ const props = defineProps({
   text-transform: uppercase;
   width: fit-content;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 600;
   position: absolute;
   background: white;
   text-align: center;
@@ -96,6 +96,7 @@ const props = defineProps({
 }
 .accordion-item .accordion-item__summary .accordion-item__summary-title {
   font-size: 16px;
+  font-weight: 600;
   text-transform: uppercase;
 }
 

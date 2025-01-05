@@ -29,6 +29,6 @@ const props = defineProps({
   font-size: 20px;
   text-transform: capitalize;
   text-align: center;
-  font-weight: 500;
+  font-weight: 600;
 }
 </style>

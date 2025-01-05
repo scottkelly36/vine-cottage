@@ -30,7 +30,7 @@ const props = defineProps({
 
 .warnings-title {
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .warning-item {
@@ -38,6 +38,7 @@ const props = defineProps({
   gap: 20px;
   align-items: center;
   justify-content: center;
+  font-weight: 600;
 }
 .warnings-container {
   display: flex;
