@@ -43,12 +43,14 @@ footer {
   color: #f4f4f4;
   text-align: center;
   font-size: 18px;
+  font-weight: 600;
 }
 
 .footer-email__link {
   color: #f4f4f4;
   text-decoration: none;
   font-size: 14px;
+  font-weight: 600;
 }
 
 .footer-email__link:hover {
