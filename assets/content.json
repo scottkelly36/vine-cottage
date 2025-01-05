@@ -50,7 +50,12 @@
     "content": "<p>This lovely, freshly renovated cottage is a haven for single travellers or a couple who want to be in the heart of Hexham. Oak flooring throughout the living room and bedroom is complemented by tasteful soft furnishings and furniture. The bedroom with double bed has plenty of wardrobe space and leads into an ensuite with luxurious marble tiles. The kitchen is fully equipped with new appliances and leads to a separate utility containing a washer/dryer.</p>",
     "showCta": true
   },
-  "gallery": [],
+  "fourImageBlock": [
+    "images/slider/slider12.jpeg",
+    "images/slider/slider5.jpeg",
+    "images/slider/slider15.jpeg",
+    "images/slider/slider17.jpeg"
+  ],
   "Accordion": {
     "items": [
       {
@@ -128,37 +133,24 @@
   },
   "testimonials": {
     "title": "Testimonials",
-    "reviews": [
-      {
-        "image": "",
-        "text": "",
-        "date": "",
-        "name": ""
-      },
-      {
-        "image": "",
-        "text": "",
-        "date": "",
-        "name": ""
-      },
-      {
-        "image": "",
-        "text": "",
-        "date": "",
-        "name": ""
-      },
-      {
-        "image": "",
-        "text": "",
-        "date": "",
-        "name": ""
-      },
-      {
-        "image": "",
-        "text": "",
-        "date": "",
-        "name": ""
-      }
+    "images": [
+      "images/review-slider/slider1.jpeg",
+      "images/review-slider/slider2.jpeg",
+      "images/review-slider/slider3.jpeg",
+      "images/review-slider/slider4.jpeg",
+      "images/review-slider/slider5.jpeg",
+      "images/review-slider/slider7.jpeg",
+      "images/review-slider/slider8.jpeg",
+      "images/review-slider/slider9.jpeg",
+      "images/review-slider/slider10.jpeg",
+      "images/review-slider/slider11.jpeg",
+      "images/review-slider/slider12.jpeg",
+      "images/review-slider/slider13.jpeg",
+      "images/review-slider/slider15.jpeg",
+      "images/review-slider/slider16.jpeg",
+      "images/review-slider/slider17.jpeg",
+      "images/review-slider/slider19.jpeg",
+      "images/review-slider/slider20.jpeg"
     ]
   },
   "exploreNorthumberland": {
