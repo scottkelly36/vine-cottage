@@ -4,5 +4,5 @@ export default defineNuxtConfig({
   plugins: [
     { src: '~/plugins/vue-scroll-reveal.client.js', mode: 'client' },
   ],
-  devtools: { enabled: true }
+  devtools: { enabled: true },
 })

@@ -30,5 +30,9 @@ const props = defineProps({
   text-transform: capitalize;
   text-align: center;
   font-weight: 600;
+
+  @media (min-width: 700px) {
+    font-size: 26px;
+  }
 }
 </style>

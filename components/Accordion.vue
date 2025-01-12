@@ -52,6 +52,10 @@ const props = defineProps({
 <style>
 .accordion-container {
   margin: 0 15px;
+
+  @media (min-width: 700px) {
+    margin: 0 120px;
+  }
 }
 
 .accordion-title__container {

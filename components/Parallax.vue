@@ -9,7 +9,7 @@
 <style>
 .parallax {
   /* The image used */
-  background-image: url('../public/images/Hexham-Corbridge.jpg');
+  background-image: url("../public/images/Hexham-Corbridge.jpg");
 
   /* Set a specific height */
   min-height: 250px;
@@ -20,6 +20,14 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+
+  @media (min-width: 700px) {
+    min-height: 450px;
+  }
+
+  @media (min-width: 1024px) {
+    min-height: 575px;
+  }
 }
 .overlay {
   width: 100%;
