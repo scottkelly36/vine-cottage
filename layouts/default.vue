@@ -33,4 +33,8 @@ import Nav from "~/components/Nav.vue";
   padding: 0;
   font-family: "Abigail", sans-serif; /* Fallback to a safe font */
 }
+
+html {
+  scroll-behavior: smooth;
+}
 </style>

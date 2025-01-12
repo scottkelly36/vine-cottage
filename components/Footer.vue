@@ -30,6 +30,14 @@ footer {
   align-items: center;
   padding: 50px 0;
   margin-top: 100px;
+
+  @media (min-width: 700px) {
+    gap: 40px;
+  }
+
+  @media (min-width: 1024px) {
+    gap: 50px;
+  }
 }
 .footer__logo-container {
   display: flex;
@@ -38,12 +46,17 @@ footer {
 }
 .footer__logo-container img {
   width: 50%;
+  max-width: 500px;
 }
 .footer-address__container {
   color: #f4f4f4;
   text-align: center;
   font-size: 18px;
   font-weight: 600;
+
+  @media (min-width: 1024px) {
+    font-size: 22px;
+  }
 }
 
 .footer-email__link {
@@ -51,6 +64,10 @@ footer {
   text-decoration: none;
   font-size: 14px;
   font-weight: 600;
+
+  @media (min-width: 1024px) {
+    font-size: 18px;
+  }
 }
 
 .footer-email__link:hover {

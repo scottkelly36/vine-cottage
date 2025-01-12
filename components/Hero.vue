@@ -5,6 +5,13 @@
       <h1 class="hero-heading">{{ componentData?.heading }}</h1>
       <h2 class="hero-subheading">{{ componentData?.subHeading }}</h2>
       <p class="hero-copy">{{ componentData?.copy }}</p>
+      <div class="cta__container-hero">
+        <primary-cta
+          :text="'Book Your Stay'"
+          :link="'#about'"
+          :buttonClass="'secondary'"
+        />
+      </div>
     </div>
 
     <!-- Slider -->
@@ -30,6 +37,7 @@
 <script setup>
 import "@splidejs/vue-splide/css";
 import { Splide, SplideSlide } from "@splidejs/vue-splide";
+import primaryCta from "./buttons/primary-cta.vue";
 
 const props = defineProps({
   componentData: { type: Object, required: true },
@@ -63,7 +71,7 @@ const options = {
 .hero-section {
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 95vh;
   overflow: hidden;
 }
 
@@ -207,5 +215,11 @@ const options = {
 .arrow {
   width: 50px; /* Set a fixed width for the arrow */
   height: auto; /* Maintain aspect ratio */
+}
+
+.cta__container-hero {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 </style>

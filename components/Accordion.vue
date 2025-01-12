@@ -92,6 +92,10 @@ const props = defineProps({
   transition: all 0.5s ease;
 }
 
+.accordion-item__list-item {
+  font-weight: 600;
+}
+
 .accordion-item .accordion-item__summary {
   height: 40px;
   display: flex;
