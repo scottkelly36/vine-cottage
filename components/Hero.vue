@@ -8,8 +8,9 @@
       <div class="cta__container-hero">
         <primary-cta
           :text="'Book Your Stay'"
-          :link="'#about'"
+          :link="'#Book-now'"
           :buttonClass="'secondary'"
+          :onClick="onClick"
         />
       </div>
     </div>
@@ -41,6 +42,7 @@ import primaryCta from "./buttons/primary-cta.vue";
 
 const props = defineProps({
   componentData: { type: Object, required: true },
+  onClick: Function,
 });
 
 const arrowBase64 =
@@ -71,7 +73,7 @@ const options = {
 .hero-section {
   position: relative;
   width: 100%;
-  height: 95vh;
+  height: 100vh;
   overflow: hidden;
 }
 
@@ -97,7 +99,7 @@ const options = {
   flex-direction: column;
   gap: 10px;
   z-index: 10;
-  top: 35%;
+  top: 45%;
   left: 45%;
   transform: translate(-50%, -50%);
   color: #ffffff;

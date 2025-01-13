@@ -1,15 +1,16 @@
 <template>
   <div class="page-layout">
-    <Hero :componentData="data.hero" id="hero" />
+    <Hero :componentData="data.hero" id="Home" :onClick="smoothScrollTo" />
     <text-split
       :componentData="data.textSplit1"
       v-scroll-reveal="{ origin: 'left', distance: '200px' }"
+      id="About"
     />
     <parallax />
     <section
       v-scroll-reveal="{ origin: 'left', distance: '200px' }"
       class="text-split2-section"
-      id="about"
+      id="Book-now"
     >
       <text-split :componentData="data.textSplit2" />
       <Carousel :componentData="data.carousel" />
@@ -17,30 +18,38 @@
     <section
       v-scroll-reveal="{ origin: 'left', distance: '200px' }"
       class="text-split3-section"
-      id="about2"
+      id="Perfect-for-single-travelers"
     >
       <text-split :componentData="data.textSplit3" />
       <div class="cta__container">
-        <primary-cta :text="'Book Your Stay'" :link="'#about'" />
+        <primary-cta
+          :text="'Book Your Stay'"
+          :link="'#Book-now'"
+          :onClick="smoothScrollTo"
+        />
       </div>
       <FourImageBlock :componentData="data.fourImageBlock" />
     </section>
     <section
       v-scroll-reveal="{ origin: 'left', distance: '200px' }"
       class="features-section"
-      id="features"
+      id="Features"
     >
       <Accordion :componentData="data.Accordion" />
-      <Warning :componentData="data.warnings" />
+      <Warning :componentData="data.warnings" :onClick="smoothScrollTo" />
     </section>
     <section
       v-scroll-reveal="{ origin: 'left', distance: '200px' }"
       class="northumberland-section"
-      id="northumberland"
+      id="Explore-the-north"
     >
       <text-split :componentData="data.exploreNorthumberland" />
       <div class="cta__container">
-        <primary-cta :text="'Book Your Stay'" :link="'#about'" />
+        <primary-cta
+          :text="'Book Your Stay'"
+          :link="'#Book-now'"
+          :onClick="smoothScrollTo"
+        />
       </div>
       <LargeImageGrid :componentData="data.largeImageGrid" />
     </section>
@@ -70,6 +79,22 @@ useHead({
     },
   ],
 });
+
+const smoothScrollTo = (id) => {
+  const target = document.querySelector(id);
+  if (target) {
+    target.scrollIntoView({ behavior: "smooth" });
+
+    // Reinitialize Vue Scroll Reveal for the target section
+    setTimeout(() => {
+      const { $vueScrollReveal } = useNuxtApp();
+      const elements = target.querySelectorAll(".v-scroll-reveal");
+      elements.forEach((el) => {
+        $vueScrollReveal.reveal(el);
+      });
+    }, 500); // Wait for scroll to complete
+  }
+};
 </script>
 
 <style>

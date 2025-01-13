@@ -12,7 +12,11 @@
       </div>
     </div>
     <div class="cta__container">
-      <primary-cta :text="'Book Your Stay'" :link="'#about'" />
+      <primary-cta
+        :text="'Book Your Stay'"
+        :link="'#Book-now'"
+        :onClick="onClick"
+      />
     </div>
   </div>
 </template>
@@ -22,6 +26,7 @@ import primaryCta from "./buttons/primary-cta.vue";
 
 const props = defineProps({
   componentData: { type: Object, required: true },
+  onClick: Function,
 });
 </script>
 

@@ -1,5 +1,5 @@
 <template>
-  <a :href="link" class="button" :class="`button--${buttonClass}`">{{
+  <a @click="handleClick" class="button" :class="`button--${buttonClass}`">{{
     text
   }}</a>
 </template>
@@ -17,7 +17,16 @@ const props = defineProps({
     type: String,
     default: "primary",
   },
+
+  onClick: Function,
 });
+
+const handleClick = () => {
+  console.log("clicked");
+  if (props.onClick && props.link) {
+    props.onClick(props.link);
+  }
+};
 </script>
 
 <style>
@@ -32,6 +41,7 @@ const props = defineProps({
   align-items: center;
   line-height: 18px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .button--primary {
