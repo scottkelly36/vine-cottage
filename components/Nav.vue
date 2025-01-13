@@ -80,7 +80,7 @@ const smoothScrollTo = (id) => {
   position: fixed;
   z-index: 99;
 
-  @media (min-width: 700px) {
+  @media (min-width: 1024px) {
     padding: 0px 120px;
   }
 }
@@ -171,9 +171,12 @@ const smoothScrollTo = (id) => {
 }
 
 .nav__links-desktop ul {
-  list-style: none;
-  display: flex;
-  gap: 30px;
+  display: none;
+  @media (min-width: 1024px) {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+  }
 }
 
 .nav__links-desktop li {
