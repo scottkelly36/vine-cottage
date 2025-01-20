@@ -27,13 +27,17 @@ const options = {
 };
 </script>
 
-<style scoped>
+<style>
 .carousel-container {
   position: relative;
   width: 100%;
   height: 300px; /* Adjust height as needed */
   display: flex;
   align-items: center; /* Vertically centers slides */
+}
+
+.carousel-container .splide__track {
+  height: 400px;
 }
 
 .carousel-slide {
