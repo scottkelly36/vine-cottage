@@ -1,13 +1,10 @@
-<script setup lang="ts">
-import Nav from "~/components/Nav.vue";
-</script>
-
 <template>
   <div>
     <Nav />
     <slot />
   </div>
 </template>
+
 <style>
 @font-face {
   font-family: "Inika"; /* Font name */

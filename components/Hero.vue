@@ -66,6 +66,9 @@ const options = {
   interval: 6000,
   rewind: true,
   speed: 2000,
+  classes: {
+    track: "custom-track-class",
+  },
 };
 </script>
 
@@ -146,8 +149,13 @@ const options = {
   height: 100%; /* Ensure the slider takes up the full height of its parent */
 }
 
-.splide__track {
-  height: 100%; /* Ensure the track takes up the full height */
+.hero-slide {
+  height: 100%;
+  width: 100%;
+}
+
+.hero-slider .splide__track {
+  height: 100% !important; /* Ensure the track takes up the full height */
 }
 
 .splide__list {

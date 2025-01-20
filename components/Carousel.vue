@@ -27,7 +27,7 @@ const options = {
 };
 </script>
 
-<style>
+<style scoped>
 .carousel-container {
   position: relative;
   width: 100%;

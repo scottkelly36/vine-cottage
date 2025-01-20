@@ -131,28 +131,50 @@
       { "icon": "Parties", "text": "No Parties" }
     ]
   },
-  "testimonials": {
-    "title": "Testimonials",
-    "images": [
-      "images/review-slider/slider1.jpeg",
-      "images/review-slider/slider2.jpeg",
-      "images/review-slider/slider3.jpeg",
-      "images/review-slider/slider4.jpeg",
-      "images/review-slider/slider5.jpeg",
-      "images/review-slider/slider7.jpeg",
-      "images/review-slider/slider8.jpeg",
-      "images/review-slider/slider9.jpeg",
-      "images/review-slider/slider10.jpeg",
-      "images/review-slider/slider11.jpeg",
-      "images/review-slider/slider12.jpeg",
-      "images/review-slider/slider13.jpeg",
-      "images/review-slider/slider15.jpeg",
-      "images/review-slider/slider16.jpeg",
-      "images/review-slider/slider17.jpeg",
-      "images/review-slider/slider19.jpeg",
-      "images/review-slider/slider20.jpeg"
-    ]
-  },
+  "testimonials": [
+    {
+      "image": "images/slider/slider4.jpeg",
+      "reviewTitle": "Nice clean and modern comfortable cottage in a central location.",
+      "reviewBody": "<p>Central location convenient for shops, restaurants, parks.</p> <p>Close to bus and train station. The hosts were in contact to ensure we enjoyed our stay and help out if required.</p>",
+      "reviewName": "Brian",
+      "reviewDate": "August 2024"
+    },
+    {
+      "image": "images/slider/slider10.jpeg",
+      "reviewTitle": "Best cottage in Hexham",
+      "reviewBody": "<p>We had amazing 3 night stay. The best place we have stayed in Hexham. Central location, within walking distance to shops, bars and restaurants but doesn't take long to jump in the car and get out to the countryside.</p><p>The cottage is of a very high standard and has everything you need for a relaxing holiday.</p><p>We will definitely be back and have already recommended to friends and family.</p>",
+      "reviewName": "Benjamin",
+      "reviewDate": "December 2024"
+    },
+    {
+      "image": "images/slider/slider8.jpeg",
+      "reviewTitle": "Perfect bolt hole in fab location!",
+      "reviewBody": "<p>Fabulous central location but quiet and peaceful. Immaculate with everything you need! Lovely touches, beautiful welcoming basket with bread, butter, jams, delicious cakes and milk in the fridge. Perfect bedding for a great nights sleep! Lovely restaurants nearby and unique shops. Top restaurant for us was The Beaumont! We would recommend staying at this property.</p>",
+      "reviewName": "Maureen",
+      "reviewDate": "November 2024"
+    },
+    {
+      "image": "images/slider/slider20.jpeg",
+      "reviewTitle": "It was so relaxing to come back to the cottage each night",
+      "reviewBody": "<p>It is very comfortable with all the accessories you need for your stay. The location is exceptional! You can walk to everything in Hexham.</p><p>The train and bus stations are a short walk. On my next visit, to the north east, I wouldn’t stay anywhere else.</p>",
+      "reviewName": "Joan",
+      "reviewDate": "September 2023"
+    },
+    {
+      "image": "images/slider/slider5.jpeg",
+      "reviewTitle": "Excellent cottage for long or short stay in the lovely town of Hexham",
+      "reviewBody": "<p>We had a great stay in Vine cottage. Check in was very easy . The garage was perfect for our mini clubman . The lovey welcome pack of delicious buns and bread was perfect . The cottage has everything you would need for short or long stay . Sally and Tim kept in touch but we didn’t have any difficulties for them to sort out . The cottage is beautifully presented and I particularly loved the White Co. Soap.</p>",
+      "reviewName": "Pamela",
+      "reviewDate": "September 2024"
+    },
+    {
+      "image": "images/slider/slider3.jpeg",
+      "reviewTitle": "Highly recommended!",
+      "reviewBody": "<p>Perfectly located for Hexham centre yet lovely and quiet within. The cottage was beautifully arranged and had everything needed for a comfortable stay. We felt very well looked after.</p>",
+      "reviewName": "Aaron",
+      "reviewDate": "September 2024"
+    }
+  ],
   "exploreNorthumberland": {
     "title": "Explore the North",
     "content": "<p>Located in the heart of the charming market town of Hexham, Vine Cottage offers guests plenty of opportunities to explore local life.  Hexham is renowned for it’s history, including the magnificent Hexham Abbey and Old Goal, stroll along cobbled back streets and enjoy the independent shops and restaurants.  There are 5 supermarkets, 1 large leisure centre with swimming pool and fitness centre.  Hexham also has an independent cinema as well as the Queens Hall which has a variety of events throughout the year.</p><p>For those wanting to venture further, all of Northumberland awaits your exploration. With its stunning landscapes, historical castles, tranquil beaches, and picturesque market towns, this region is among the UK’s most enchanting destinations. Coupled with the rugged rural scenery, Northumberland sets the stage for a truly memorable holiday.</p>",
