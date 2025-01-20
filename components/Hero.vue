@@ -155,7 +155,7 @@ const options = {
 }
 
 .hero-slider .splide__track {
-  height: 100%; /* Ensure the track takes up the full height */
+  height: 100% !important; /* Ensure the track takes up the full height */
 }
 
 .splide__list {

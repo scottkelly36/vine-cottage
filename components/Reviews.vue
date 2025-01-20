@@ -29,11 +29,13 @@ const props = defineProps({
 });
 
 const options = {
-  type: "loop",
+  type: "fade",
   autoplay: true,
-  interval: 10000,
+  interval: 9000,
   arrows: true,
   pagination: true,
+  rewind: true,
+  speed: 2000,
 };
 </script>
 
@@ -41,12 +43,16 @@ const options = {
 /* General Splide styles */
 .slide-container {
   position: relative;
-  height: 500px; /* Set your desired fixed height */
+  height: 750px; /* Set your desired fixed height */
   width: 100%;
   overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media (min-width: 700px) {
+    height: 500px;
+  }
 }
 
 .background-image {
@@ -85,12 +91,20 @@ const options = {
 
 .review__body {
   font-weight: 600;
-  font-size: 18px;
+  font-size: 14px;
+
+  @media (min-width: 700px) {
+    font-size: 18px;
+  }
 }
 
 .review__title {
-  font-size: 30px;
+  font-size: 20px;
   margin-bottom: 10px;
+
+  @media (min-width: 700px) {
+    font-size: 30px;
+  }
 }
 
 .review-name__container {

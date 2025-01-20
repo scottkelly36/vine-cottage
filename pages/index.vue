@@ -38,7 +38,7 @@
       <Accordion :componentData="data.Accordion" />
       <Warning :componentData="data.warnings" :onClick="smoothScrollTo" />
     </section>
-    <section>
+    <section v-scroll-reveal="{ origin: 'left', distance: '200px' }">
       <Reviews :componentData="data.testimonials" />
     </section>
     <section

@@ -5,12 +5,19 @@
     "copy": "A newly renovated holiday home in the attractive market town of  Hexham, minutes from the town centre.  A perfect retreat for couples.",
     "showCta": true,
     "images": [
-      "images/Hero-carousel/hero1.jpeg",
-      "images/Hero-carousel/hero2.jpeg",
-      "images/Hero-carousel/hero3.jpeg",
-      "images/Hero-carousel/hero4.jpeg",
-      "images/Hero-carousel/hero5.jpeg",
-      "images/Hero-carousel/hero6.jpeg"
+      "images/slider/slider1.jpeg",
+      "images/slider/slider23.jpeg",
+      "images/slider/slider15.jpeg",
+      "images/slider/slider4.jpeg",
+      "images/slider/slider19.jpeg",
+      "images/slider/slider2.jpeg"
+    ],
+    "imagesMob": [
+      "images/slider/slider5.jpeg",
+      "images/slider/slider20.jpeg",
+      "images/slider/slider16.jpeg",
+      "images/slider/slider10.jpeg",
+      "images/slider/slider9.jpeg"
     ]
   },
   "textSplit1": {
@@ -37,12 +44,15 @@
       "images/slider/slider10.jpeg",
       "images/slider/slider11.jpeg",
       "images/slider/slider12.jpeg",
-      "images/slider/slider13.jpeg",
+      "images/slider/slider13.jpg",
       "images/slider/slider15.jpeg",
       "images/slider/slider16.jpeg",
       "images/slider/slider17.jpeg",
       "images/slider/slider19.jpeg",
-      "images/slider/slider20.jpeg"
+      "images/slider/slider20.jpeg",
+      "images/slider/slider21.jpg",
+      "images/slider/slider22.jpg",
+      "images/slider/slider23.jpeg"
     ]
   },
   "textSplit3": {
