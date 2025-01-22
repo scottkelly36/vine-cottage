@@ -12,6 +12,9 @@
             <li><a @click="smoothScrollTo('#Book-now')">Book Now</a></li>
             <li><a @click="smoothScrollTo('#Features')">Features</a></li>
             <li>
+              <a @click="smoothScrollTo('#Reviews')">Reviews</a>
+            </li>
+            <li>
               <a @click="smoothScrollTo('#Explore-the-north')"
                 >Explore the North</a
               >
@@ -33,6 +36,9 @@
         <li><a @click="smoothScrollTo('#About')">About</a></li>
         <li><a @click="smoothScrollTo('#Book-now')">Book Now</a></li>
         <li><a @click="smoothScrollTo('#Features')">Features</a></li>
+        <li>
+          <a @click="smoothScrollTo('#Reviews')">Reviews</a>
+        </li>
         <li>
           <a @click="smoothScrollTo('#Explore-the-north')">Explore the North</a>
         </li>

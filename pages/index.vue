@@ -38,7 +38,10 @@
       <Accordion :componentData="data.Accordion" />
       <Warning :componentData="data.warnings" :onClick="smoothScrollTo" />
     </section>
-    <section v-scroll-reveal="{ origin: 'left', distance: '200px' }">
+    <section
+      v-scroll-reveal="{ origin: 'left', distance: '200px' }"
+      id="Reviews"
+    >
       <Reviews :componentData="data.testimonials" />
     </section>
     <section
@@ -68,8 +71,28 @@ import primaryCta from "~/components/buttons/primary-cta.vue";
 
 const data = pageData;
 useHead({
-  title: "Vine Cottage",
-  meta: [{ name: "description", content: "My amazing site." }],
+  title:
+    "Luxury Holiday Cottage in Hexham, Northumberland | Book Your Escape Now",
+  charset: "utf-8",
+  meta: [
+    {
+      name: "description",
+      content:
+        "Escape to our charming holiday cottage in Hexham, Northumberland. Enjoy breathtaking views, cozy accommodations, and nearby attractions like Hadrian's Wall. Perfect for families, couples, or solo travelers seeking tranquility. Book your getaway today!",
+    },
+    {
+      name: "ogDescription",
+      content:
+        "Escape to our charming holiday cottage in Hexham, Northumberland. Enjoy breathtaking views, cozy accommodations, and nearby attractions like Hadrian's Wall. Perfect for families, couples, or solo travelers seeking tranquility. Book your getaway today!",
+    },
+    {
+      name: "ogTitle",
+      content:
+        "Luxury Holiday Cottage in Hexham, Northumberland | Book Your Escape Now",
+    },
+    { name: "robots", content: "index, follow" },
+    { name: "viewport", content: "width=device-width, initial-scale=1.0" },
+  ],
   bodyAttrs: {
     class: "test",
   },
