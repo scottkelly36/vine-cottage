@@ -3,6 +3,21 @@
     <div class="footer__logo-container">
       <img src="../assets/logos/full-logo-white.png" alt="" />
     </div>
+    <div class="social-icons__container">
+      <a :href="componentData.facebook" v-if="componentData.facebook">
+        <Icon :iconName="'Facebook'" />
+      </a>
+      <a :href="componentData.insta" v-if="componentData.insta">
+        <Icon :iconName="'Insta'" />
+      </a>
+      <a
+        :href="componentData.twitter"
+        v-if="componentData.twitter"
+        class="icon"
+      >
+        <Icon :iconName="'Twitter'" />
+      </a>
+    </div>
     <div v-html="componentData?.address" class="footer-address__container" />
     <div class="footer-email__container">
       <a
@@ -18,6 +33,8 @@
 const props = defineProps({
   componentData: { type: Object, required: true },
 });
+
+console.log(props);
 </script>
 
 <style>
@@ -31,12 +48,8 @@ footer {
   padding: 50px 0;
   margin-top: 100px;
 
-  @media (min-width: 700px) {
-    gap: 40px;
-  }
-
   @media (min-width: 1024px) {
-    gap: 50px;
+    gap: 30px;
   }
 }
 .footer__logo-container {
@@ -47,6 +60,7 @@ footer {
 .footer__logo-container img {
   width: 50%;
   max-width: 500px;
+  min-width: 250px;
 }
 .footer-address__container {
   color: #f4f4f4;
@@ -72,5 +86,15 @@ footer {
 
 .footer-email__link:hover {
   text-decoration: underline;
+}
+
+.social-icons__container {
+  display: flex;
+  column-gap: 20px;
+  color: #f4f4f4;
+}
+.icon {
+  color: #f4f4f4;
+  font-size: 30px;
 }
 </style>
