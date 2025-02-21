@@ -42,7 +42,7 @@
 </template>
 
 <script setup>
-import { AccordionList, AccordionItem } from "vue3-rich-accordion";
+import { AccordionList, AccordionItem } from 'vue3-rich-accordion';
 
 const props = defineProps({
   componentData: { type: Object, required: true },
@@ -87,7 +87,7 @@ const props = defineProps({
 .accordion-item {
   width: 100%;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   border-bottom: solid black 1px;
   transition: all 0.5s ease;
 }
