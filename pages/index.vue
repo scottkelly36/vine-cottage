@@ -42,7 +42,10 @@
       v-scroll-reveal="{ origin: 'left', distance: '200px' }"
       id="Reviews"
     >
-      <Reviews :componentData="data.testimonials" />
+      <ReviewScript
+        widget-id="49236"
+        widget-token="lnVCAh01LAb5DT3HY31vxw8OXlPgqs8XT3Umt8Lg7rDAMDEYsOblYSKIDrMZV"
+      />
     </section>
     <section
       v-scroll-reveal="{ origin: 'left', distance: '200px' }"
@@ -65,42 +68,42 @@
 </template>
 
 <script setup>
-import pageData from '../assets/content.json';
-import Footer from '~/components/Footer.vue';
-import primaryCta from '~/components/buttons/primary-cta.vue';
+import pageData from "../assets/content.json";
+import Footer from "~/components/Footer.vue";
+import primaryCta from "~/components/buttons/primary-cta.vue";
 
 const data = pageData;
 useHead({
   title:
-    'Luxury Holiday Cottage in Hexham, Northumberland | Book Your Escape Now',
-  charset: 'utf-8',
+    "Luxury Holiday Cottage in Hexham, Northumberland | Book Your Escape Now",
+  charset: "utf-8",
   meta: [
     {
-      name: 'description',
+      name: "description",
       content:
         "Escape to our charming holiday cottage in Hexham, Northumberland. Enjoy breathtaking views, cozy accommodations, and nearby attractions like Hadrian's Wall. Perfect for families, couples, or solo travelers seeking tranquility. Book your getaway today!",
     },
     {
-      name: 'ogDescription',
+      name: "ogDescription",
       content:
         "Escape to our charming holiday cottage in Hexham, Northumberland. Enjoy breathtaking views, cozy accommodations, and nearby attractions like Hadrian's Wall. Perfect for families, couples, or solo travelers seeking tranquility. Book your getaway today!",
     },
     {
-      name: 'ogTitle',
+      name: "ogTitle",
       content:
-        'Luxury Holiday Cottage in Hexham, Northumberland | Book Your Escape Now',
+        "Luxury Holiday Cottage in Hexham, Northumberland | Book Your Escape Now",
     },
-    { name: 'robots', content: 'index, follow' },
-    { name: 'viewport', content: 'width=device-width, initial-scale=1.0' },
+    { name: "robots", content: "index, follow" },
+    { name: "viewport", content: "width=device-width, initial-scale=1.0" },
   ],
   bodyAttrs: {
-    class: 'test',
+    class: "test",
   },
   link: [
     {
-      rel: 'icon',
-      type: 'image/x-icon',
-      href: './favicons/favicon-32x32.png',
+      rel: "icon",
+      type: "image/x-icon",
+      href: "./favicons/favicon-32x32.png",
     },
   ],
 });
@@ -108,12 +111,12 @@ useHead({
 const smoothScrollTo = (id) => {
   const target = document.querySelector(id);
   if (target) {
-    target.scrollIntoView({ behavior: 'smooth' });
+    target.scrollIntoView({ behavior: "smooth" });
 
     // Reinitialize Vue Scroll Reveal for the target section
     setTimeout(() => {
       const { $vueScrollReveal } = useNuxtApp();
-      const elements = target.querySelectorAll('.v-scroll-reveal');
+      const elements = target.querySelectorAll(".v-scroll-reveal");
       elements.forEach((el) => {
         $vueScrollReveal.reveal(el);
       });
